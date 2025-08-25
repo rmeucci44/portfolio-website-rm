@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+.page-title {
+  margin-top: 2rem;
+  font-size: 2.5rem;
+  color: #2c3e50;
+  text-align: center;
+  font-weight: bold;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.scroll-down {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.scroll-down a {
+  font-size: 1.2rem;
+  color: #2c3e50;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.scroll-down a:hover {
+  color: #3498db;
+}
+
+

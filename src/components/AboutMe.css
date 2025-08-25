@@ -1,0 +1,49 @@
+.about-me {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 2rem 1rem;
+  background-color: #f0f4f8;
+  border-bottom: 2px solid #ddd;
+  flex-wrap: wrap;
+}
+
+.profile-pic {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 15%;
+  margin: 2rem 1rem 1rem; /* 👈 Top margin adds downward shift */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.about-text {
+  max-width: 600px;
+  margin: 1rem;
+  text-align: left;
+}
+
+.about-text h2 {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.about-text p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.education-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.education-container ul {
+  list-style-type: none;
+  padding: 0;
+  min-width: 250px;
+}

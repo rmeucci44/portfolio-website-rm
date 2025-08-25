@@ -1,0 +1,85 @@
+.timeline-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+  width: 100%;
+}
+
+.timeline-item.left {
+  flex-direction: row;
+}
+
+.timeline-item.right {
+  flex-direction: row-reverse;
+}
+
+
+
+
+
+.timeline-item.right .job-date {
+  text-align: left;
+  padding-left: 1rem;
+  padding-right: 0;
+}
+
+
+.job-date {
+  width: 25%;
+  text-align: right;
+  padding-right: 1rem;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+}
+
+.job-info {
+  width: 50%;
+  background: #fdfdfd;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.logo-wrapper {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2; /* Ensure logo is on top */
+}
+
+.company-logo {
+  max-width: 60px;
+  max-height: 60px;
+  object-fit: contain;
+  border-radius: 50%;
+  background: white;
+  padding: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* This is the horizontal connector line */
+.timeline-item.left::before {
+  content: '';
+  position: absolute;
+  height: 2px;
+  background-color: #ccc;
+  width: 25%;           /* You can tweak this */
+  top: 50%;
+  left: 25%;            /* Starts after the date box */
+  z-index: 0;
+}
+
+.timeline-item.right::before {
+  content: '';
+  position: absolute;
+  height: 2px;
+  background-color: #ccc;
+  width: 25%;           /* Same as left for symmetry */
+  top: 50%;
+  right: 25%;           /* Starts after the date box */
+  z-index: 0;
+}

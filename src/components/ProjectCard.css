@@ -1,0 +1,19 @@
+.project-card {
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 1rem;
+  margin: 1rem;
+  max-width: 400px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: left;
+}
+.project-card h3 {
+  color: #4c6ef5;
+  margin-bottom: 0.5rem;
+}
+.project-card a {
+  text-decoration: none;
+  color: #1c7ed6;
+  font-weight: bold;
+}
