@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-website-rm/static/css/main.57c823f7.css",
-    "main.js": "/portfolio-website-rm/static/js/main.ef297f0a.js",
+    "main.js": "/portfolio-website-rm/static/js/main.4fcbcd60.js",
     "static/js/453.d0a24d32.chunk.js": "/portfolio-website-rm/static/js/453.d0a24d32.chunk.js",
     "static/media/profile.jpg": "/portfolio-website-rm/static/media/profile.0df5d8a66cf7c82b4f16.jpg",
     "static/media/depauwLogo.jpg": "/portfolio-website-rm/static/media/depauwLogo.8d62b589693ea7bec132.jpg",
@@ -9,11 +9,11 @@
     "static/media/doublemapLogo.jpg": "/portfolio-website-rm/static/media/doublemapLogo.81d9798566c411d6773c.jpg",
     "index.html": "/portfolio-website-rm/index.html",
     "main.57c823f7.css.map": "/portfolio-website-rm/static/css/main.57c823f7.css.map",
-    "main.ef297f0a.js.map": "/portfolio-website-rm/static/js/main.ef297f0a.js.map",
+    "main.4fcbcd60.js.map": "/portfolio-website-rm/static/js/main.4fcbcd60.js.map",
     "453.d0a24d32.chunk.js.map": "/portfolio-website-rm/static/js/453.d0a24d32.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.57c823f7.css",
-    "static/js/main.ef297f0a.js"
+    "static/js/main.4fcbcd60.js"
   ]
 }
