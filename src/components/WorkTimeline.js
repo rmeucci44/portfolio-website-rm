@@ -10,7 +10,7 @@ import wishLogo from '../assets/logos/wishLogo.jpg';
 const workExperience = [
   {
     title: 'Account Executive — WISH-TV / Circulus Digital Media',
-    date: '2023 – 2024',
+    date: 'September 2025 - Current',
     logo: wishLogo, // make sure you import wishLogo at the top
     description: [
       'Partnered with clients to align business goals with targeted marketing strategies that reached the right audiences.',
