@@ -4,9 +4,19 @@ import heliumLogo from '../assets/logos/heliumLogo.jpg';
 import johnsonBrothersLogo from '../assets/logos/johnsonBrothersLogo.png';
 import depauwLogo from '../assets/logos/depauwLogo.jpg';
 import doublemapLogo from '../assets/logos/doublemapLogo.jpg';
+import wishLogo from '../assets/logos/wishLogo.jpg';
 
 
 const workExperience = [
+  {
+    title: 'Account Executive — WISH-TV / Circulus Digital Media',
+    date: '2023 – 2024',
+    logo: wishLogo, // make sure you import wishLogo at the top
+    description: [
+      'Partnered with clients to align business goals with targeted marketing strategies that reached the right audiences.',
+      'Leveraged analytics and performance data to drive measurable outcomes and optimization opportunities.',
+    ],
+  },
   {
     title: 'Usher/Server: Helium Comedy Club',
     date: 'September 2020 - December 2022',

@@ -48,7 +48,7 @@ function App() {
 
             <ProjectCard
               title="Hand Tracking & Biometrics"
-              description="A computer vision project using OpenCV and NumPy to analyze hand images. Users manually select points to define axes, extract intensity profiles, and build feature vectors. Annotated images and a Euclidean distance matrix are generated for comparison."
+              description="A computer vision project using OpenCV and NumPy to analyze hand images. Users manually select points to define axes, extract intensity profiles, and build feature vectors. Annotated images and a distance matrix are generated for comparison."
               tech="Python, OpenCV, NumPy, SciPy, Matplotlib"
               link="https://github.com/rmeucci44/handBiometricsProject"
             />
